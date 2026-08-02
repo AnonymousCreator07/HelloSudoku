@@ -10,7 +10,6 @@ An Android application developed using **Kotlin** that provides a complete Sudok
 - 🧩 Random Sudoku puzzle generation
 - 🤖 Automatic Sudoku solver using a backtracking algorithm
 - ✍️ Custom puzzle input and solving
-- 💾 Save and load solved puzzle states using SQLite
 - ✔️ Input validation and error detection
 - 🔄 Reset and restart puzzle functionality
 - 📱 Responsive and user-friendly Android interface
@@ -21,7 +20,6 @@ An Android application developed using **Kotlin** that provides a complete Sudok
 
 - **Language:** Kotlin
 - **IDE:** Android Studio
-- **Database:** SQLite
 - **UI:** Android XML Layouts
 - **Architecture:** Activity-based Android Application
 - **Version Control:** Git
@@ -68,10 +66,6 @@ The application consists of four primary modules:
 - Highlights incorrect entries.
 - Detects puzzle completion.
 
-### 4. Database Module
-- Stores solved puzzle states using SQLite.
-- Enables users to revisit previously solved puzzles.
-
 ---
 
 ## 🧠 Algorithm
@@ -117,22 +111,24 @@ This project demonstrates practical experience in:
 - Recursive backtracking
 - Object-Oriented Programming
 - UI/UX design for mobile applications
-- Data persistence
 
 ---
 
 ## 🔮 Future Improvements
 
-- Multiple difficulty levels
-- Hint generation
 - Dark mode
 - Timer and scoring system
-- Google Play Games achievements
-- Cloud synchronization
-- Sudoku statistics dashboard
-- Pencil marks (candidate notes)
 - Undo/Redo functionality
+- Pencil marks (candidate notes)
+- Sudoku statistics dashboard
+- Achievement and progress tracking
+- Cloud synchronization
+- Local database integration (SQLite/Room) to save unfinished games, completed puzzles, player statistics, and game history
+- User authentication and profile management
+- Daily Sudoku challenges
+- Online leaderboard and competitive mode
 - MVVM architecture with Jetpack components
+- Performance optimizations and improved UI animations
 
 ---
 
